@@ -1,2 +1,2 @@
 # leetcode
-leetcode recode
+leetcode record
