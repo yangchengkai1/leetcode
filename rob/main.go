@@ -45,11 +45,12 @@ var tcs = []struct {
 
 func main() {
 	for _, tc := range tcs {
-		fmt.Println(rob(tc.nums))
+		fmt.Println(Rob(tc.nums))
 	}
 }
 
-func rob(nums []int) int {
+//Rot -
+func Rob(nums []int) int {
 	// a 对于偶数位上的最大值的记录
 	// b 对于奇数位上的最大值的记录
 	var a, b int
